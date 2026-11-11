@@ -492,7 +492,7 @@ function fcoOptions(){
   var list=FCO_BY[d.penyulang]||[];
   var h='<option value="">'+(d.penyulang?"Pilih FCO":"Pilih penyulang lebih dulu")+'</option>';
   list.forEach(function(n){h+='<option value="'+esc(n)+'"'+(d.fco===n?" selected":"")+'>'+esc(n)+'</option>'});
-  h+='<option value="__other"'+(d.fco==="__other"?" selected":"")+'>Lainnya (tulis sendiri)</option>';
+  h+='<option value="__other"'+(d.fco==="__other"?" selected":"")+'>ISI NAMA FCO GARDU</option>';
   return h;
 }
 function refreshFco(){
